@@ -1,0 +1,138 @@
+﻿<html>
+<head>
+    <title>About Us</title>
+    <style>
+        /* unvisited link */
+        a:link {
+            color: white;
+        }
+
+        /* visited link */
+        a:visited {
+            color: white;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: black;
+            background-color: white;
+            border-color: red;
+            border-width: 2px;
+            text-shadow: 2px 2px 10px #808080;
+            transition-duration: 0.4s;
+            width: 100px;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+        }
+
+        a {
+            background-color: #f44336;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 8px;
+            margin-top: 12px;
+            border: outset;
+            border-width: thin;
+            border-color: black;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: white;
+                padding: 14px 25px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: white;
+                    color: black;
+                    border-color: red;
+                    border-width: 2px;
+                    text-shadow: 2px 2px 10px #808080;
+                    transition-duration: 0.4s;
+                    width: initial;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(242, 242, 242)">
+    <div style="height: 80px; width:10%; background-color:#0b72b3; float:left; text-align:center;">
+        <img src="Logo.png" alt="Logo" width="150" height="80" style="display:inline-block; overflow:auto; position:absolute; border:outset; border-color:black; border-width:thin;">
+    </div>
+    <div style="height: 80px; width:100%; text-align: center; background-color:#0b72b3;">
+        <nav>
+            <ul style="font-size: 25px; font-family: 'Franklin Gothic Book';">
+                <li style="display: inline-flex; padding-right: 100px; color: red; overflow:auto;"><a href="index.html">Home</a></li>
+                <div class="dropdown">
+                    <li style="display: inline-flex; padding-right: 100px; color: red;; overflow:auto;"><a href="#">Menu</a></li>
+                    <div class="dropdown-content">
+                        <a href="menu_pizza.html">Pizza</a>
+                        <a href="menu_burger.html">Burger</a>
+                        <a href="menu_sandwich.html">Sandwich</a>
+                        <a href="menu_sides.html">Sides</a>
+                        <a href="menu_Drinks & Desserts.html">Drinks & Desserts</a>
+                    </div>
+                </div>
+                <li style="display: inline-flex; padding-right: 100px; color: red; overflow:auto;"><a href="about.html">About</a></li>
+                <li style="display: inline-flex; padding-right: 100px; color: red; overflow:auto;"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div style="height: 90px; width:100%; background-color: honeydew; text-align: center; margin-top:18px;">
+        <marquee direction="right" height="70px" scrollamount="15" style="font-size: 45px; font-family:'Franklin Gothic Book'; text-align: center; color:white; background-color:brown;">Observe the food, feel the taste</marquee>
+    </div>
+
+    <div style="height: 35%; width:100%; background-color:#0b72b3; float:left;">
+        <h2 style=" font-family: 'Open Sans Condensed', sans-serif; margin: 70px auto; padding: 10px; background-color: rgba(255, 255, 255, 0.9); border-radius: 5px; -webkit-box-shadow: 5px 5px 10px; box-shadow: 5px 5px 10px;">
+            M's Pizza & More was founded in 2020 with a mission to serve great food to humanity
+            <br>The main branch of M's Pizza & More is located in Pune, Maharashtra with branches all over India and many countries abroad.For any information related to what we serve and other queries, we can be contacted through our contact page.
+            <br>We are committed to bringing fun, happiness and convenience to lives of our consumers by delivering delicious food to their doorstep and our efforts are aimed at fulfilling this commitment towards a large and ever-growing guest base.
+        </h2>
+
+    </div>
+
+    <div style="height: 30%; width:100%; background-color:#0b72b3; float:left; text-align:center;">
+        <h2 style=" font-family: 'Open Sans Condensed', sans-serif; margin: 40px auto; padding: 10px; background-color: rgba(255, 255, 255, 0.9); border-radius: 5px; -webkit-box-shadow: 5px 5px 10px; box-shadow: 5px 5px 10px;">
+            Our first Branch is located at:<br> M's Pizza & More<br>Fergusson College Rd, Shivajinagar, Pune - 411004 Ph.No. 020-26836623/ 26837556/ 26837676
+
+        </h2>
+
+    </div>
+
+    <div style="height: 80px; width:100%; background-color:#0b72b3; text-align: right; float:left; font-size:25px; font-family:'Franklin Gothic Book'; margin-top:20px;">
+        <p><b>All rights reserved. Copyright © Murtuza Husain    </b></p>
+    </div>
+</body>
+</html>
